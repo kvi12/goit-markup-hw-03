@@ -17,7 +17,7 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -55,13 +55,10 @@ a {
 
 /* ------header------ */
 .header {
-  display: inline-block;
   border-color: var(--header-background-color);
   padding: 15px 32px;
 }
-.header.container {
-  display: flex;
-}
+
 .header-logo {
   font-family: var(--font-addition);
   color: var(--accent-color);
@@ -77,8 +74,15 @@ a {
   color: var(--main-title-color);
 }
 /* header-navigation */
-.site-nav list,
-header-nav list {
+.header-nav {
+  display: flex;
+}
+.site-nav {
+  display: flex;
+  font-weight: 500;
+}
+.header-nav-list {
+  display: flex;
   font-weight: 500;
 }
 /* hero */
@@ -176,7 +180,9 @@ header-nav list {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*-----------main qualities ------------*/
-
+.qualities-list {
+  display: flex;
+}
 .qualities-main-title {
   font-weight: 700;
   font-size: 36px;
@@ -199,8 +205,14 @@ header-nav list {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
-
-/* people */
+/* work */
+.work-list {
+  display: flex;
+}
+/* peoples */
+.people-list {
+  display: flex;
+}
 .peoples {
   background-color: var(--people-background-color);
 }
@@ -256,6 +268,12 @@ header-nav list {
 .footer {
   background-color: var(--hero-color);
   /* color: ; */
+}
+.footer .container {
+  display: flex;
+}
+.footer-nav {
+  display: flex;
 }
 .footer-nav-link-address {
   font-size: 14px;
