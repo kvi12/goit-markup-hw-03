@@ -10,8 +10,15 @@
   --people-background-color: #f5f4fa;
   --font-addition: 'Raleway', sans-serif;
   --footer-tel-mail-color: rgba(255, 255, 255, 0.6);
+  --header-background-color: #ececec;
 }
-
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /* outline: 1px solid red; */
+}
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--header-color);
@@ -46,6 +53,15 @@ a {
 /* акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 
+/* ------header------ */
+.header {
+  display: inline-block;
+  border-color: var(--header-background-color);
+  padding: 15px 32px;
+}
+.header.container {
+  display: flex;
+}
 .header-logo {
   font-family: var(--font-addition);
   color: var(--accent-color);
