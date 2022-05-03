@@ -11,8 +11,8 @@
   --font-addition: 'Raleway', sans-serif;
   --footer-tel-mail-color: rgba(255, 255, 255, 0.6);
   --header-background-color: #ececec;
-  --header-nav--top-dst: 30px;
-  --header-nav-bt--dst: 34;
+  /* --header-nav--top-dst: 30px; */
+  /* --header-nav-bt--dst: 34; */
 }
 .container {
   width: 1200px;
@@ -50,8 +50,8 @@ a {
   font-style: normal;
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px; */
+  /* padding-bottom: 94px; */
 }
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
@@ -71,6 +71,7 @@ a {
   color: var(--accent-color);
   font-weight: 700;
   font-size: 26px;
+  margin-right: 93px;
 }
 
 .bit {
@@ -84,8 +85,8 @@ a {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-top: var(--header-nav--top-dst);
-  margin-bottom: var(--header-nav-bt--dst);
+  /* margin-top: var(--header-nav--top-dst); */
+  /* margin-bottom: var(--header-nav-bt--dst); */
 }
 .site-nav {
   display: flex;
@@ -94,6 +95,7 @@ a {
 .header-nav-list {
   display: flex;
   font-weight: 500;
+  margin-left: auto;
 }
 /* hero */
 .hero {
@@ -291,14 +293,10 @@ a {
 /*-----------footer-navigation ------------*/
 .footer {
   background-color: var(--hero-color);
-  /* color: ; */
 }
 .footer .container {
-  display: flex;
-  align-items: center;
 }
 .footer-nav {
-  display: flex;
 }
 .footer-nav-link-address {
   font-size: 14px;
