@@ -306,6 +306,7 @@ a {
   background-color: var(--hero-color);
 }
 .footer .container {
+  margin-top: 94px;
 }
 .footer-nav {
 }
