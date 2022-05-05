@@ -19,7 +19,7 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 body {
   font-family: Roboto, sans-serif;
@@ -38,7 +38,8 @@ h6 {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
   padding-left: 0;
   margin: 0;
 }
@@ -61,9 +62,9 @@ a {
 
 /* ------header------ */
 .header {
-  border-color: var(--header-background-color);
-  padding-top: 22px;
-  padding-bottom: 22px;
+  border-bottom: var(--header-background-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-logo {
@@ -84,8 +85,8 @@ a {
 .header-nav {
   display: flex;
   align-items: center;
-  /* margin-top: var(--header-nav--top-dst); */
-  /* margin-bottom: var(--header-nav-bt--dst); */
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .site-nav {
   display: flex;
@@ -107,6 +108,7 @@ a {
 .section-hero {
   background-color: var(--hero-color);
 }
+
 .hero {
   background-color: var(--hero-color);
   text-align: center;
@@ -179,6 +181,9 @@ a {
   letter-spacing: 0.02em;
 }
 /* hero */
+.section-hero {
+  text-align: center;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -188,6 +193,7 @@ a {
   text-transform: uppercase;
   color: var(--header-color);
 }
+
 .hero-butt {
   display: inline-block;
   background-color: var(--accent-color);
@@ -308,8 +314,7 @@ a {
 .footer .container {
   margin-top: 94px;
 }
-.footer-nav {
-}
+
 .footer-nav-link-address {
   font-size: 14px;
   line-height: 24px;
