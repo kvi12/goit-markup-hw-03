@@ -67,15 +67,19 @@ a {
 /* ------header------ */
 .header {
   border-bottom: var(--header-background-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-
+.header .container {
+  display: flex;
+  align-items: center;
+}
 .header-logo {
   font-family: var(--font-addition);
   color: var(--accent-color);
   font-weight: 700;
   font-size: 26px;
+  margin-right: 93px;
 }
 
 .bit {
@@ -88,17 +92,19 @@ a {
 /* header-navigation */
 .header-nav {
   display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 .site-nav {
   display: flex;
   font-weight: 500;
-  margin-left: 93px;
 }
 .site-nav > li:nth-child(2) {
   margin: 0 50px 0;
+}
+.header-nav {
+  margin-left: 331px;
 }
 .header-nav-list {
   display: flex;
