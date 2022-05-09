@@ -19,7 +19,7 @@
   </head>
   <body>
     <!--Шапка страницы-->
-    <header class="header">
+    <header class="header header-prtf">
       <div class="container ">
         <!--Навигация на другие страницы-->
         
@@ -36,12 +36,12 @@
             </li>
             <li><a href="tel:+380961111111" class="header-telephone">+380961111111</a></li>
           </ul>
-        </nav>
+          </nav>
       </div>
     </header>
     <main>
       <!-- buttons -->
-      <section class="section">
+      <section class="button-section">
         <div class="container">
           <h1 class="visually-hidden">Просто заголовок</h1>
           <ul class="filters-list list">
@@ -61,7 +61,7 @@
               <button type="button" class="button-filter-right" name="Маркетинг">Маркетинг</button>
             </li>
           </ul>
-          <!-- cards -->
+          <!-- examples cards -->
           <div class="container container-cards">
             <ul class="card-set list">
               
@@ -69,8 +69,8 @@
                   <a href=""
                     ><img src="./images/071182.jpg" alt="Технокряк" width="370" height="294" />
 
-                    <h2 class="examples">Технокряк</h2>
-                    <p class="examples-titles">Веб-сайт</p></a
+                    <div class="card-content"><h2 class="examples">Технокряк</h2>
+                    <p class="examples-titles">Веб-сайт</p></div></a
                   >
                 </li>
                 <li class="card-item">
@@ -81,8 +81,8 @@
                       width="370"
                       height="294"
                     />
-                    <h2 class="examples">Постер New Orlean vs Golden Star</h2>
-                    <p class="examples-titles">Дизайн</p></a
+                    <div class="card-content"><h2 class="examples">Постер New Orlean vs Golden Star</h2>
+                    <p class="examples-titles">Дизайн</p></div></a
                   >
                 </li>
                 <li class="card-item">
@@ -93,22 +93,22 @@
                       width="370"
                       height="294"
                     />
-                    <h2 class="examples">Ресторан Seafood</h2>
-                    <p class="examples-titles">Приложение</p></a
+                    <div class="card-content"><h2 class="examples">Ресторан Seafood</h2>
+                    <p class="examples-titles">Приложение</p></div></a
                   >
                 </li>
                 <li class="card-item">
                   <a href=""
                     ><img src="./images/22c555.jpg" alt="Проект Prime" width="370" height="294" />
-                    <h2 class="examples">Проект Prime</h2>
-                    <p class="examples-titles">Маркетинг</p></a
+                    <div class="card-content"><h2 class="examples">Проект Prime</h2>
+                    <p class="examples-titles">Маркетинг</p></div></a
                   >
                 </li>
                 <li class="card-item">
                   <a href=""
                     ><img src="./images/58f59b.jpg" alt="Проект Boxes" width="370" height="294" />
-                    <h2 class="examples">Проект Boxes</h2>
-                    <p class="examples-titles">Приложение</p></a
+                    <div class="card-content"><h2 class="examples">Проект Boxes</h2>
+                    <p class="examples-titles">Приложение</p></div></a
                   >
                 </li>
                 <li class="card-item">
@@ -119,8 +119,8 @@
                       width="370"
                       height="294"
                     />
-                    <h2 class="examples">Inspiration has no Borders</h2>
-                    <p class="examples-titles">Веб-сайт</p></a
+                    <div class="card-content"><h2 class="examples">Inspiration has no Borders</h2>
+                    <p class="examples-titles">Веб-сайт</p></div></a
                   >
                 </li>
                 <li class="card-item">
@@ -131,15 +131,15 @@
                       width="370"
                       height="294"
                     />
-                    <h2 class="examples">Издание Limited Edition</h2>
-                    <p class="examples-titles">Дизайн</p></a
+                    <div class="card-content"><h2 class="examples">Издание Limited Edition</h2>
+                    <p class="examples-titles">Дизайн</p></div></a
                   >
                 </li>
                 <li class="card-item">
                   <a href=""
                     ><img src="./images/3cef12.jpg" alt="Проект LAB" width="370" height="294" />
-                    <h2 class="examples">Проект LAB</h2>
-                    <p class="examples-titles">Маркетинг</p></a
+                    <div class="card-content"><h2 class="examples">Проект LAB</h2>
+                    <p class="examples-titles">Маркетинг</p></div></a
                   >
                 </li>
                 <li class="card-item">
@@ -150,8 +150,8 @@
                       width="370"
                       height="294"
                     />
-                    <h2 class="examples">Growing Business</h2>
-                    <p class="examples-titles">Приложение</p></a
+                    <div class="card-content"><h2 class="examples">Growing Business</h2>
+                    <p class="examples-titles">Приложение</p></div></a
                   >
                 </li>
              
@@ -160,20 +160,20 @@
         </div>
       </section>
     </main>
-
     <!-- подвал страницы -->
 
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <a href="" class="footer-logo">Web<span class="footer-bit">Studio</span> </a>
-        <address>
+        <!--Навигация на другие страницы-->
+        <address class="address">
           <ul class="footer-nav list">
-            <li>
+            <li class="footer-nav-list">
               <a href="г. Киев, пр-т Леси Украинки, 26" class="footer-nav-link-address"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="footer-nav-list">
               <a href="mailto:info@devstudio.com" class="footer-nav-link-mail"
                 >info@devstudio.com</a
               >
