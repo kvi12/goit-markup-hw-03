@@ -19,7 +19,6 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 1px solid red; */
 }
 body {
   font-family: Roboto, sans-serif;
@@ -68,15 +67,10 @@ a {
 /* ------header------ */
 .header {
   border-bottom: var(--header-background-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
-  width: 1600px;
 }
 .header-prtf {
   border-bottom: 1px solid var(--header-background-color);
   width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .header .container {
   display: flex;
@@ -100,10 +94,12 @@ a {
 /* header-navigation */
 .header-nav {
   display: flex;
-
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 331px;
 }
+
 .site-nav {
   display: flex;
   font-weight: 500;
@@ -111,9 +107,7 @@ a {
 .site-nav > li:nth-child(2) {
   margin: 0 50px 0;
 }
-.header-nav {
-  margin-left: 331px;
-}
+
 .header-nav-list {
   display: flex;
   font-weight: 500;
@@ -197,7 +191,6 @@ a {
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
 }
 .hero-title {
   font-weight: 900;
@@ -210,7 +203,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 696px;
-  padding: 94px 0;
 }
 
 .hero-butt {
